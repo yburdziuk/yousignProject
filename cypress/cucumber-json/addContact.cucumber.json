@@ -1,0 +1,107 @@
+[
+  {
+    "description": "    As a user I want to be able to add a contact to my contacts book",
+    "keyword": "Feature",
+    "name": "New contact creation",
+    "line": 1,
+    "id": "new-contact-creation",
+    "tags": [],
+    "uri": "addContact.feature",
+    "elements": [
+      {
+        "id": "new-contact-creation;adding-a-contact",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Adding a contact",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "yana.burdziuk@gmail.com",
+                      "NolanKubrick94*"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is logged into the Yousign",
+            "result": {
+              "status": "passed",
+              "duration": 8733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User clicks on the add contact button",
+            "result": {
+              "status": "passed",
+              "duration": 1777000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "role",
+                      "phone"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Signataire",
+                      "655443399"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Puts the personal data into the needed fields",
+            "result": {
+              "status": "passed",
+              "duration": 2956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Submits the contact creation",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The new contact is added",
+            "result": {
+              "status": "passed",
+              "duration": 1133000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

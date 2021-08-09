@@ -1,0 +1,80 @@
+[
+  {
+    "description": "  As a user I want to be able to login to the site with my username and password ",
+    "keyword": "Feature",
+    "name": "User log in",
+    "line": 1,
+    "id": "user-log-in",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "user-log-in;connecting-to-the-site-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Connecting to the site with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Yousign log-in page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 3901000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "yana.burdziuk@gmail.com",
+                      "NolanKubrick94*"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User puts its credentials into the username and password fields",
+            "result": {
+              "status": "passed",
+              "duration": 824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 1504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User is connected",
+            "result": {
+              "status": "passed",
+              "duration": 2647000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
