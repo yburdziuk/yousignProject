@@ -21,6 +21,8 @@ To execute the tests in background and see the report directly in the terminal :
 
 **npm run test**
 
+<img width="724" alt="Capture d’écran 2021-08-09 à 16 39 37" src="https://user-images.githubusercontent.com/61992820/128727312-0d0ace22-c8a9-4a98-b212-343ab8e5f317.png">
+
 ### Output aka HTML Report using the module [multiple-cucumber-html-reporter](https://github.com/wswebcreation/multiple-cucumber-html-reporter)
 
 Execute this command to generate HTML reports :
@@ -35,6 +37,6 @@ Execute this command to generate HTML reports :
 
 -> Using the JS functions instead of custom commands is the best modus operandi for a long term strategic to avoid the complexity of maintainance and vaste of time/mental effort to understand what every custom command does
 
-* JS functions are stored *cypress/actions*
+* JS functions are stored in *cypress/actions*
 
 -> Forced to manually reset the session cookies/clear storage before every test to avoid the sabotage of the results (workaround for now is to log out the user after the test), the bug on cypress side
