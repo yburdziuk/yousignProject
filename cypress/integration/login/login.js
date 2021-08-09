@@ -16,5 +16,5 @@ Given('Yousign log-in page is opened', () => {
         cy.url().should('eq', 'https://staging-app.yousign.com/procedures?status=to_sign')
         cy.title().should("include", "Yousign App");
         cy.get('.c-ui-avatar__background').first().click()
-        cy.contains('Déconnexion').click();
+        cy.get('a').eq(1).click();
      }); 

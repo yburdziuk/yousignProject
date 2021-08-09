@@ -23,7 +23,7 @@
             "name": "Yousign log-in page is opened",
             "result": {
               "status": "passed",
-              "duration": 3901000000
+              "duration": 4137000000
             }
           },
           {
@@ -50,7 +50,7 @@
             "name": "User puts its credentials into the username and password fields",
             "result": {
               "status": "passed",
-              "duration": 824000000
+              "duration": 780000000
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "User clicks on login button",
             "result": {
               "status": "passed",
-              "duration": 1504000000
+              "duration": 2067000000
             }
           },
           {
@@ -70,7 +70,7 @@
             "name": "User is connected",
             "result": {
               "status": "passed",
-              "duration": 2647000000
+              "duration": 2846000000
             }
           }
         ]
